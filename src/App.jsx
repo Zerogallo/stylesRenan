@@ -2,6 +2,18 @@ import { useState } from "react";
 import "./App.css";
 import img from "./assets/image.jpg";
 import { FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
+import html1 from "./assets/html/html (1).png";
+import html2 from "./assets/html/html (2).png";
+import html4 from "./assets/html/html (3).png";
+import html3 from "./assets/html/html .png";
+import css1 from "./assets/css/arquivo-css.png";
+import css2 from "./assets/css/css-3 (1).png";
+import css3 from "./assets/css/css-3.png";
+import css4 from "./assets/css/css.png";
+import js1 from "./assets/js/arquivo-js.png";
+import js2 from "./assets/js/js (1).png";
+import js3 from "./assets/js/js (2).png";
+import js4 from "./assets/js/js.png";
 
 function App() {
   const [activeContent, setActiveContent] = useState(1);
@@ -35,24 +47,24 @@ function App() {
 
       <div style={{ display: activeContent === 1 ? "block" : "none" }}>
         <div className="fudoHtml"></div>
-        <img src="./src/assets/html/html (1).png" alt="" className="imgA" />
-        <img src="./src/assets/html/html (2).png" alt="" className="imgB" />
-        <img src="./src/assets/html/html (3).png" alt="" className="imgC" />
-        <img src="./src/assets/html/html.png" alt="" className="imgD" />
+        <img src={html1} alt="" className="imgA" />
+        <img src={html2} alt="" className="imgB" />
+        <img src={html3} alt="" className="imgC" />
+        <img src={html4} alt="" className="imgD" />
       </div>
 
       <div style={{ display: activeContent === 2 ? "block" : "none" }}>
-        <img src="./src/assets/css/arquivo-css.png" alt="" className="imgA" />
-        <img src="./src/assets/css/css-3 (1).png" alt="" className="imgB" />
-        <img src="./src/assets/css/css-3.png" alt="" className="imgC" />
-        <img src="./src/assets/css/css.png" alt="" className="imgD" />
+        <img src={css1} alt="" className="imgA" />
+        <img src={css2} alt="" className="imgB" />
+        <img src={css3} alt="" className="imgC" />
+        <img src={css4} alt="" className="imgD" />
       </div>
 
       <div style={{ display: activeContent === 3 ? "block" : "none" }}>
-        <img src="./src/assets/js/arquivo-js.png" alt="" className="imgA" />
-        <img src="./src/assets/js/js (1).png" alt="" className="imgB" />
-        <img src="./src/assets/js/js (2).png" alt="" className="imgC" />
-        <img src="./src/assets/js/js.png" alt="" className="imgD" />
+        <img src={js1} alt="" className="imgA" />
+        <img src={js2} alt="" className="imgB" />
+        <img src={js3} alt="" className="imgC" />
+        <img src={js4} alt="" className="imgD" />
       </div>
     </>
   );
