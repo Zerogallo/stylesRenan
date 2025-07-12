@@ -5,7 +5,7 @@ import { FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 import html1 from "./assets/html/html (1).png";
 import html2 from "./assets/html/html (2).png";
 import html4 from "./assets/html/html (3).png";
-import html3 from "./assets/html/html .png";
+import html3 from "./assets/html/html.png";
 import css1 from "./assets/css/arquivo-css.png";
 import css2 from "./assets/css/css-3 (1).png";
 import css3 from "./assets/css/css-3.png";
